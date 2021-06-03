@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>x_calculator</RootNamespace>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>calculator_flat_AG1_icon.ico</ApplicationIcon>
+    <Authors>Deniz K. Acikbas</Authors>
+    <Company>University of Michigan</Company>
+    <Product>X Calculator</Product>
+    <Description>WPF based simple calculator</Description>
+    <Copyright>2021 © Deniz K. Acikbas</Copyright>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+
+</Project>

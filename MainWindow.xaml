@@ -1,0 +1,40 @@
+﻿<Window x:Class="x_calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:x_calculator"
+        mc:Ignorable="d"
+        ResizeMode="CanMinimize"
+        Background="LightGray"
+        Title="X Calculator" Height="560" Width="450">
+    <Grid>
+
+        <Button x:Name="one_button" Content="1" HorizontalAlignment="Left" Margin="28,354,0,0" VerticalAlignment="Top" Height="62" Width="80" FontSize="28" Click="one_button_Click"/>
+        <Button x:Name="two_button" Content="2" HorizontalAlignment="Left" Margin="128,354,0,0" VerticalAlignment="Top" Height="62" Width="80" FontSize="28" Click="two_button_Click"/>
+        <Button x:Name="three_button" Content="3" HorizontalAlignment="Left" Margin="228,354,0,0" VerticalAlignment="Top" Height="62" Width="80" FontSize="28" Click="three_button_Click"/>
+        <Button x:Name="four_button" Content="4" HorizontalAlignment="Left" Margin="28,280,0,0" VerticalAlignment="Top" Height="62" Width="80" FontSize="28" Click="four_button_Click"/>
+        <Button x:Name="five_button" Content="5" HorizontalAlignment="Left" Margin="128,280,0,0" VerticalAlignment="Top" Height="62" Width="80" FontSize="28" Click="five_button_Click"/>
+        <Button x:Name="six_button" Content="6" HorizontalAlignment="Left" Margin="228,280,0,0" VerticalAlignment="Top" Height="62" Width="80" FontSize="28" Click="six_button_Click"/>
+        <Button x:Name="seven_button" Content="7" HorizontalAlignment="Left" Margin="28,203,0,0" VerticalAlignment="Top" Height="62" Width="80" FontSize="28" Click="seven_button_Click"/>
+        <Button x:Name="eight_button" Content="8" HorizontalAlignment="Left" Margin="128,203,0,0" VerticalAlignment="Top" Height="62" Width="80" FontSize="28" Click="eight_button_Click"/>
+        <Button x:Name="nine_button" Content="9" HorizontalAlignment="Left" Margin="228,203,0,0" VerticalAlignment="Top" Height="62" Width="80" FontSize="28" Click="nine_button_Click"/>
+        <Button x:Name="zero_button" Content="0" HorizontalAlignment="Left" Margin="28,430,0,0" VerticalAlignment="Top" Height="62" Width="180" FontSize="28" Click="zero_button_Click"/>
+        <Button x:Name="dot_button" Content="." HorizontalAlignment="Left" Margin="228,430,0,0" VerticalAlignment="Top" Height="62" Width="80" FontSize="28" Click="dot_button_Click"/>
+        <Button x:Name="division_button" Content="÷" HorizontalAlignment="Left" Margin="323,128,0,0" VerticalAlignment="Top" Height="62" Width="80" FontSize="28" Click="division_button_Click"/>
+        <Button x:Name="multiply_button" Content="x" HorizontalAlignment="Left" Margin="323,203,0,0" VerticalAlignment="Top" Height="62" Width="80" FontSize="28" Click="multiply_button_Click"/>
+        <Button x:Name="subscription_button" Content="-" HorizontalAlignment="Left" Margin="323,280,0,0" VerticalAlignment="Top" Height="62" Width="80" FontSize="28" Click="subscription_button_Click"/>
+        <Button x:Name="add_button" Content="+" HorizontalAlignment="Left" Margin="323,354,0,0" VerticalAlignment="Top" Height="62" Width="80" FontSize="28" Click="add_button_Click"/>
+        <Button x:Name="equals_button" Content="=" HorizontalAlignment="Left" Margin="323,430,0,0" VerticalAlignment="Top" Height="62" Width="80" FontSize="28" Click="equals_button_Click"/>
+        <Button x:Name="percent_button" Content="%" HorizontalAlignment="Left" Margin="128,128,0,0" VerticalAlignment="Top" Height="62" Width="80" FontSize="28" Click="percent_button_Click"/>
+        <Button x:Name="ce_button" Content="CE" HorizontalAlignment="Left" Margin="28,128,0,0" VerticalAlignment="Top" Height="62" Width="80" FontSize="28" Click="ce_button_Click"/>
+        <Button x:Name="square_root_button" Content="√" HorizontalAlignment="Left" Margin="228,128,0,0" VerticalAlignment="Top" Height="62" Width="80" FontSize="28" Click="square_root_button_Click" RenderTransformOrigin="0.305,0.531"/>
+        <ToolBar HorizontalAlignment="Center" Height="32" VerticalAlignment="Top" Width="450" Background="White">
+            <Button x:Name="about_button" Content=" About " HorizontalAlignment="Left" FontSize="16" VerticalAlignment="Top" Click="about_button_Click" />
+        </ToolBar>
+        <Rectangle HorizontalAlignment="Left" Height="70" Margin="29,40,0,0" Fill="LightGreen" Stroke="Black" VerticalAlignment="Top" Width="374"/>
+        <TextBlock x:Name="result_label" HorizontalAlignment="Left" Margin="45,62,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="36" Width="345" TextAlignment="Right" LineHeight="36" MaxHeight="46"/>
+        <TextBlock x:Name="result_label_2" HorizontalAlignment="Left" Margin="45,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="22" Width="345" TextAlignment="Right"/>
+
+    </Grid>
+</Window>
